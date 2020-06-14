@@ -1,0 +1,8 @@
+version: '2'
+services:
+  lummycode-app:
+    build: ../../..
+    container_name: lummycode-app
+    environment:
+    ports:
+      - 8081:8081:
